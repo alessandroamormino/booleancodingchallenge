@@ -1,0 +1,92 @@
+/* Resetto margini */
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.background{
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Contenitore per opacità e centro il contenuto */
+.card{
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.container{
+  padding: 8%;
+}
+
+/* header */
+
+header{
+  text-align: center;
+  color: #2BDD00;
+}
+
+header > img{
+  width: 250px;
+}
+
+/* nav */
+
+nav{
+  text-align: center;
+  padding: 10px;
+  background-color: #2BDD00;
+}
+
+/* main */
+
+main{
+  color: #ffffff;
+}
+
+section{
+  margin-top: 20px;
+  font-weight: 200;
+}
+
+section > p{
+  line-height: 1.8em;
+}
+
+.name{
+  display: inline-block;
+  font-weight: 500;
+}
+
+.posizione::before{
+  content: "\21A6"
+}
+
+.battery {
+  height: 1.8em;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+
+.battery.one{
+  width: 35%;
+  background-color: #F5B453;
+}
+
+.battery.two{
+  width: 60%;
+  background-color: #25C31F;
+}
+
+.battery.three{
+  width: 15%;
+  background-color: #BE4141;
+}
